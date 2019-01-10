@@ -1,0 +1,464 @@
+.almost-hover:hover, ul.nav li.list a:hover {
+  color: #fccf20;
+  background-color: transparent; }
+
+.almost-hover:blur, ul.nav li.list a:blur {
+  color: #fff;
+  background-color: transparent; }
+
+.overlay, section.statistic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); }
+
+.sections, section.home, section.about, section.services, section.statistic, section.portfolios, section.price, section.team, section.contact, footer {
+  padding: 20px 0; }
+
+.sticky {
+  background-color: #bc0312; }
+
+.title, section.about, section.services, section.portfolios, section.price, section.team, section.contact {
+  text-align: center;
+  margin-bottom: 20px; }
+  .title h2, section.about h2, section.services h2, section.portfolios h2, section.price h2, section.team h2, section.contact h2 {
+    font-size: 35px;
+    color: #333333; }
+  .title div.line, section.about div.line, section.services div.line, section.portfolios div.line, section.price div.line, section.team div.line, section.contact div.line {
+    width: 150px;
+    background: #bc0312;
+    height: 2px;
+    margin: auto; }
+  .title span.mini-line, section.about span.mini-line, section.services span.mini-line, section.portfolios span.mini-line, section.price span.mini-line, section.team span.mini-line, section.contact span.mini-line {
+    display: block;
+    width: 100px;
+    background: #fccf20;
+    height: 3px;
+    margin: auto;
+    position: relative;
+    bottom: 1px; }
+  .title p.info, section.about p.info, section.services p.info, section.portfolios p.info, section.price p.info, section.team p.info, section.contact p.info {
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center; }
+
+.active-btn {
+  background: #fccf20 !important; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-family: Lucida sans-serif;
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: auto;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
+  header a.logo {
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #fff; }
+
+ul.nav li.list a {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s ease-in-out; }
+
+.navbar-toggle .icon-bar {
+  background-color: #fccf20; }
+
+section.home {
+  height: 670px;
+  background-image: url("../Images/pexels-photo-1640774.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  section.home h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  section.home .home-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; }
+  section.home .home-btn {
+    width: 175px;
+    box-shadow: 0 0 1px transparent;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: #fccf20;
+    margin-bottom: 10px;
+    outline: none; }
+
+section.about {
+  padding-bottom: 100px; }
+  section.about h3 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px; }
+    section.about h3 span {
+      color: #bc0312;
+      font-weight: bold; }
+  section.about p.about-desc {
+    text-align: left;
+    font-size: 18px;
+    color: #6b6767;
+    line-height: 1.5;
+    padding-right: 5%; }
+  section.about button.about-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #fccf20;
+    font-weight: bold;
+    outline: none;
+    margin-top: 20px; }
+  section.about img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px; }
+
+@media (max-width: 575px) {
+  .title p.info, section.about p.info, section.services p.info, section.portfolios p.info, section.price p.info, section.team p.info, section.contact p.info {
+    width: 90%;
+    text-align: center; }
+  section.about h3 {
+    text-align: center; }
+  section.about p.about-desc {
+    text-align: center;
+    padding-right: 0px; }
+  section.contact .contact-info {
+    text-align: center; }
+    section.contact .contact-info .contact-title {
+      text-align: center; }
+  section.contact .form-group {
+    display: block; } }
+
+@media (min-width: 576px) and (max-width: 1300px) {
+  .title p, section.about p, section.services p, section.portfolios p, section.price p, section.team p, section.contact p {
+    width: 90%;
+    text-align: center; }
+  section.about h3 {
+    text-align: center;
+    font-size: 22px; }
+  section.about p.about-desc {
+    text-align: center;
+    padding-right: 0px; }
+  section.contact .contact-info {
+    text-align: center; }
+    section.contact .contact-info .contact-title {
+      text-align: center; } }
+
+section.services {
+  background-color: rgba(230, 230, 230, 0.28);
+  margin-bottom: 0px; }
+  section.services div.service-mini-div {
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px; }
+  section.services i.icon {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #fccf20;
+    border-radius: 50%; }
+  section.services i.icon:hover {
+    color: #fccf20;
+    background-color: #bc0312; }
+  section.services .service-h {
+    font-size: 28px; }
+  section.services .service-p {
+    font-size: 18px;
+    color: #6b6767;
+    line-height: 1.5; }
+  section.services div.service-mini-div:hover {
+    border-radius: 10px;
+    background: #fccf20;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff; }
+    section.services div.service-mini-div:hover i.icon {
+      color: #fccf20;
+      background: #fff; }
+    section.services div.service-mini-div:hover .service-p {
+      color: #fff; }
+
+section.statistic {
+  height: 300px;
+  background-image: url("../Images/pexels-photo-64208.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  position: relative; }
+  section.statistic .statistic-mini-div {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin: 50px 0; }
+    section.statistic .statistic-mini-div i.icon {
+      width: 50px;
+      height: 50px;
+      font-size: 26px;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+      background: #fccf20;
+      border-radius: 50%;
+      margin: auto;
+      margin-bottom: 15px; }
+    section.statistic .statistic-mini-div span {
+      display: block;
+      margin-bottom: 15px;
+      text-transform: capitalize; }
+    section.statistic .statistic-mini-div .timer {
+      font-size: 26px;
+      font-weight: bold; }
+
+@media (max-width: 1200px) {
+  section.statistic {
+    height: 1200px; } }
+
+section.portfolios .buttons {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px; }
+
+section.portfolios .designbtn {
+  width: 110px;
+  box-shadow: 0 0 1px transparent;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  background-color: #bc0312;
+  margin-bottom: 20px;
+  outline: none;
+  color: #fff; }
+
+section.portfolios .images {
+  cursor: pointer; }
+  section.portfolios .images div {
+    margin-bottom: 20px; }
+    section.portfolios .images div img {
+      width: 100%; }
+  section.portfolios .images .recipe-detail {
+    text-align: center;
+    border: 1px solid silver;
+    border-top: 1px solid #fff; }
+    section.portfolios .images .recipe-detail .recipe-title {
+      font-size: 24px;
+      font-weight: bold; }
+    section.portfolios .images .recipe-detail .recipe-desc {
+      font-size: 20px; }
+    section.portfolios .images .recipe-detail .love {
+      font-size: 20px;
+      color: #bc0312; }
+
+section.portfolios .btnmore {
+  margin: auto;
+  width: 200px;
+  box-shadow: 0 0 1px transparent;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  background-color: #bc0312;
+  margin-bottom: 20px;
+  outline: none;
+  color: #fff; }
+
+section.price {
+  background-image: url("../Images/pexels-photo-347139.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px; }
+  section.price div.price-card:hover {
+    margin-top: -10px;
+    transition: all 0.3s ease-in-out; }
+    section.price div.price-card:hover .card-head {
+      background: #fccf20;
+      transition: all 0.3s ease-in-out; }
+    section.price div.price-card:hover button.price-btn {
+      background: #fccf20;
+      transition: all 0.3s ease-in-out; }
+    section.price div.price-card:hover p.desc-price {
+      border-bottom: 1px solid #fccf20; }
+  section.price div.price-card {
+    background: #fff;
+    margin-bottom: 0px; }
+    section.price div.price-card .card-head {
+      background: #bc0312;
+      color: #fff;
+      padding: 10px 0; }
+      section.price div.price-card .card-head span {
+        display: block; }
+      section.price div.price-card .card-head span.title {
+        font-size: 18px;
+        margin-bottom: 5px; }
+    section.price div.price-card p.desc-price {
+      padding: 15px;
+      border-bottom: 1px solid #bc0312;
+      font-size: 24px; }
+    section.price div.price-card ul.list-unstyled li {
+      padding: 10px; }
+    section.price div.price-card button.price-btn {
+      width: 100%;
+      background: #bc0312;
+      padding: 10px;
+      border: 0;
+      color: #fff;
+      font-size: 20px; }
+
+section.team {
+  background: #fff; }
+  section.team .team-card:hover .team-social .animate-bg {
+    transition: all 0.3s ease-in-out;
+    background: #fccf20;
+    width: 100%; }
+  section.team .team-card {
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid silver; }
+    section.team .team-card .team-title {
+      text-transform: capitalize;
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: black; }
+    section.team .team-card .team-desc {
+      text-transform: capitalize;
+      font-size: 10px;
+      color: #6b6767;
+      margin-bottom: 15px;
+      display: block; }
+    section.team .team-card .team-social {
+      width: 100%;
+      background: #bc0312;
+      color: #fff;
+      margin-bottom: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+      section.team .team-card .team-social i {
+        position: relative;
+        z-index: 50; }
+      section.team .team-card .team-social .animate-bg {
+        transition: all 0.3s ease-in-out;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 0; }
+
+section.contact {
+  background: rgba(230, 230, 230, 0.28);
+  margin-bottom: 0px; }
+  section.contact .contact-info {
+    margin-top: 40px;
+    text-align: left;
+    border-right: 1px solid #d3d0d0;
+    padding-right: 15px; }
+    section.contact .contact-info .contact-title {
+      font-size: 28px;
+      font-weight: bold; }
+    section.contact .contact-info .contact-desc {
+      line-height: 1.6;
+      color: #888; }
+    section.contact .contact-info .contact-icon {
+      display: block;
+      margin-bottom: 10px; }
+      section.contact .contact-info .contact-icon i {
+        border: 1px solid #bc0312;
+        background: #bc0312;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 5px;
+        transition: all 0.3s ease-in-out; }
+    section.contact .contact-info .contact-icon:hover i {
+      background: #fff;
+      color: #bc0312; }
+  section.contact .contact-form {
+    margin-top: 42px; }
+    section.contact .contact-form .form-group {
+      display: flex; }
+      section.contact .contact-form .form-group .form-control {
+        margin-right: 10px;
+        border: #888; }
+    section.contact .contact-form .form-input {
+      background: #bc0312;
+      padding: 10px 15px;
+      color: #fff;
+      margin: 10px 0px;
+      border: none;
+      width: 190px;
+      outline: 0; }
+
+footer {
+  background: #333;
+  color: #888; }
+  footer h3 {
+    color: #fff;
+    border-bottom: 1px solid #888;
+    padding-bottom: 7px; }
+  footer i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px !important;
+    text-align: center;
+    color: #fff; }
+  footer i.footer-icon:nth-of-type(1) {
+    background: #3b5998; }
+  footer i.footer-icon:nth-of-type(2) {
+    background: #e95950; }
+  footer i.footer-icon:nth-of-type(3) {
+    background: #55acee; }
+  footer i.footer-icon:nth-of-type(4) {
+    background: #ff0000; }
+  footer i.footer-icon:nth-of-type(5) {
+    background: #007bb5; }
+  footer ul li {
+    padding: 5px 0;
+    border-bottom: 0.5px solid #686565; }
+  footer button {
+    padding: 5px 10px;
+    background: #696969;
+    color: #fff;
+    border: 0;
+    margin-bottom: 5px;
+    outline: none; }
+  footer img {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid #4a4848; }
